@@ -1,0 +1,395 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: sans-serif;
+    background: #e4e7ec;
+
+}
+.logo1{
+    width: 15%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.navigationBar{
+    width: 100%;
+    display: flex;
+    margin: auto;
+    background-color: #000000;
+    color: #fff;
+
+    position: fixed; top: 0; left: 0; z-index: 9999;
+    
+}
+.navigationBar ul {
+    display: flex ;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navigationBar ul li {
+    list-style: none;
+    margin-left: 52px;
+    font-size: 16px;
+}
+#indiaimage{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+}
+#log12{
+    background-color: #fbbd18;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: auto;
+    border-radius: 30px;
+}
+.imgageback1{
+    margin: auto;
+    width: 100%;
+    padding-top: 70px;
+}
+.head1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Merriweather, serif;
+    padding: 30px;
+}
+.createmining{
+    margin: auto;
+    width: 80%;
+    background: #ffffff;
+    height: 580px;
+    padding: 40px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 10px;
+}
+.infomining{
+    width: 50%;
+    float: left;
+    text-align: center;
+   
+}
+.infomining ul {
+    display: flex ;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-right: 30%;
+    cursor: pointer;
+}
+.infomining ul li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 18px;
+    color: #5f5f5f;
+    font-family: Merriweather, serif;
+}
+.navigationBar ul :hover{
+    color: #fbbd18;
+    
+}
+.infomining ul :hover{
+    color: #fbbd18;
+    border: 1px solid #fbbd18;
+    border-radius: 20px;
+    padding: 5px;
+    border-top: none;
+}
+.infomining button{
+    background-color: #eee;
+    color: #007bff ;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    margin: auto;
+    border-radius: 30px;
+    border: none;
+    margin-left: -150px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.infomining p{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: -150px;
+    margin-top: 10px;
+
+}
+.usdt{
+    margin: auto;
+    margin-left: -60px;
+
+}
+.usdt button{
+    background-color: #ffffff;
+    color: #5f5f5f;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    margin: auto;
+    border: 2px solid #fbbd18;
+    border-radius: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-right: 60px;
+}
+#getyour button{
+    background-color: #fbbd18;
+    color: #5f5f5f;
+    border-radius: 5px;
+    width: 75% ;
+    padding: 15px;
+    font-size: 14px;
+}
+.maindatalf{
+   width: 50%;
+   margin-left: 150px;
+   margin-top: 20px;
+   color: #5f5f5f;
+}
+.left1 p{
+    font-size: 17px;
+    text-align: left;
+}
+.left1{
+    float: left;
+}
+.right1 p{
+    font-size: 17px;
+}
+.right1{
+    float: right;
+    text-align: end;
+}
+.paraghaph1 p{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 160px;
+    margin-left: 1px;
+    color: #5f5f5f;
+}
+.images1 img{
+    width: 40%;
+    padding: 20px;
+    height: 560px;
+    margin-left: 20px;margin-top: 10px;
+    border-radius: 60px;
+}
+.ourdata{
+    background-color:#fbbd18;
+    color: #5f5f5f;
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto ;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px;
+}
+.container{
+    display: flex;
+    padding: 80px;
+    width: 100%;
+}
+.img12 img{
+    width: 500px;
+    border-radius: 10px;
+    height: 280px;
+}
+.dataofimg h2{
+    font-weight: bold;
+    font-size: 30px ;
+}
+.dataofimg p{
+    color: #5f5f5f;
+    font-weight: bold;font-size: 18px;
+    margin-top: 30px;
+}
+.dataofimg{
+    margin-left: 100px;
+}
+.dataworld h2{
+    font-size: 30px ;
+}
+.dataworld p{
+    color: #5f5f5f;
+    font-weight: bold;font-size: 18px;
+    margin-top: 30px;
+}
+.dataworld{
+    width: 70%;
+}
+.imgdataworld{
+    width: 380px;
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-left: -40px;
+}
+.worldcont{
+    display: flex;
+    padding: 50px;
+    margin: auto;
+    width: 100%;
+    background-color: #fff;
+}
+.newbench{
+    width: 100%;
+}
+.lunuimg1{
+    width: 380px;
+    border-radius: 10px;
+    margin-left: -40px;
+    margin-top: -100px;
+}
+
+.stableh2{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+}
+.imgstable{
+    width: 100%;
+}
+.crhead h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.crtable{
+    width: 100%;
+    background:#eee;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+}
+.crtab1{
+    margin: auto;
+    background: #eee;
+    width: 330px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.section1 {
+    display: flex;
+}
+.section1 img{
+    width: 50px;
+    margin: auto; 
+    margin-left: 240px;
+    border-radius: 50%;
+}
+.section1 h2{
+    font-size: 50px;
+    float: left;
+    margin-left: 5px;
+}
+.lunotext p{
+    color: #5f5f5f;
+    text-align: start;
+    margin: auto;
+    width: 330px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.textmordata p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 10px;
+}
+.imgmoredata{
+    margin-left: 80px;
+}
+.imgmoredata img{
+    width: 130px;
+}
+.moredata{
+    display: flex;
+    margin-top: 30px;
+}
+.subhowto img{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subhowto h3{
+    text-align: center;
+    margin-top: 30px;
+    color: #333333;
+}
+.subhowto p{
+    color: #5f5f5f;
+    margin-top: 30px;
+    text-align: center;
+}
+.subhowto{
+    width: 380px;
+    background:#ebebeb;
+    font-weight: bold;
+    padding: 30px;
+}
+.howtostart{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+}
+.finalbutton{
+    width: 100%;
+    background:#ebebeb;
+    margin-top: -30px;
+    padding: 50px;
+}
+.finalbutton button {
+    background-color: #eb6600;
+    color: #ebebeb;
+    font-size: 22px;
+    padding: 20px;
+    font-weight: bold;
+    padding-left: 70px;
+    padding-right: 70px;
+    align-items: center;
+    margin: auto;
+    border: 2px solid #eb6600;
+    border-radius: 1px;
+    margin-top: 50px;
+    cursor: pointer;
+    display: grid;
+    margin-top: -30px;
+}
+.footer{
+    background: black;padding: 30px;
+    margin-top: -5px;
+}
+.footer h3{
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
